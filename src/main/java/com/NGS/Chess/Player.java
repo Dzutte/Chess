@@ -15,7 +15,7 @@ public class Player
                 TurnController = new LocalTurnDecider();
                 break;
             case RemoteHumanControl:
-                System.out.println("Remote");//WIP
+                System.out.println("Remote player");//WIP
                 break;
             case AIControl:
                 System.out.println("AI");//WIP
